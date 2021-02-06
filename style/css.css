@@ -158,8 +158,16 @@ h2 {
 
 /* Social buttons */
 .net {
-  padding: 10px;
   color: "Roboto", Black;
+}
+
+/* Footer */
+#footer .container-fluid {
+  padding: 3% 15%;
+}
+
+.copyright {
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=css.css.map */

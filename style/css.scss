@@ -1,4 +1,3 @@
-
 $red: #ff4c68;
 $lightOrange: #e2b35a;
 $biege: #f5f5dc;
@@ -40,7 +39,6 @@ h6 {
   font-family: $RobotoBlack;
   font-size: 3.5rem;
   line-height: 1.5;
-  
 }
 
 .navbar {
@@ -171,7 +169,15 @@ h2 {
 
 /* Social buttons */
 .net {
-  padding: 10px;
   color: $RobotoBlack;
 }
 
+/* Footer */
+
+#footer .container-fluid {
+  padding: 3% 15%;
+}
+
+.copyright {
+  font-size: 1.5rem;
+}
