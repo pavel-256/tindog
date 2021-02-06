@@ -1,0 +1,177 @@
+
+$red: #ff4c68;
+$lightOrange: #e2b35a;
+$biege: #f5f5dc;
+$white: #fcf3f3;
+$Roboto: "Roboto", sans-serif;
+$RobotoBlack: "Roboto", Black;
+
+body {
+  font-family: $Roboto;
+  background-color: $biege;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $RobotoBlack;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section title  */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  background-color: $red;
+  padding: 0% 15% 3%;
+}
+
+.primary_title {
+  font-family: $RobotoBlack;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  
+}
+
+.navbar {
+  padding-left: 0;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.nav-item {
+  padding: 2rem;
+}
+
+.iphone6 {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.fas:hover {
+  color: rgb(200, 240, 161);
+}
+
+/* Features section */
+
+#features {
+  background-color: $biege;
+  position: relative;
+}
+
+.featute-title {
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 1.5rem;
+}
+.fas {
+  color: $red;
+  margin-bottom: 1rem;
+}
+
+/* Paragraphs */
+
+p {
+  color: #878383;
+}
+
+/* Testimonials and Press sections */
+
+#testimonials,
+#press {
+  background-color: $lightOrange;
+  color: $white;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.tes_image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.press {
+  padding-bottom: 3%;
+}
+
+/* Pricing sections */
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.price-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Media quaries  */
+@media (max-width: 1028px) {
+  .iphone6 {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* CTA section */
+#cta {
+  background-color: $lightOrange;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+.cta_title {
+  color: $white;
+  font-family: $RobotoBlack;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Social buttons */
+.net {
+  padding: 10px;
+  color: $RobotoBlack;
+}
+
